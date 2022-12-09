@@ -1,0 +1,97 @@
+html, body {
+    margin: 0;
+    padding: 0;
+}
+html {
+    scroll-behavior: smooth;
+}
+body {
+    background-color: hsl(0, 28%, 5%);
+}
+
+
+/* header style - this is where the nav bar stays*/
+header {
+    top: 0;
+    position: fixed;
+    background: linear-gradient(#751515, #734B37);
+    width: 100%;
+    
+    z-index: 1;
+    border-bottom: none 5px #8E6056;
+    padding: 0;
+    box-shadow: inset 0.7rem 0.7rem 2.5rem 0.6rem #000;
+}
+
+
+/* items in the .navigation are in a flex box, with a central position*/
+.navigation{
+    padding: 0;
+    display: flex;
+    flex-direction: row;
+    gap: 2.5%;
+    justify-content: center;
+    list-style-type: none;
+    
+    
+}
+
+/*nav links styling...*/
+.nav-links{
+    text-decoration: none;
+    color: black;
+    font-size: 120%;
+    padding: 0.3rem;
+    
+    border-bottom: none; 
+    border-top: none;
+
+}
+
+/*nav-links style change on user hover*/
+.nav-links:hover{
+    color: white;
+    
+    border-bottom: none; 
+    border-top: none;
+}
+
+
+
+.mainContent{
+    background-color: hsl(0, 11%, 13%);
+    color: hsl(0, 8%, 84%);
+    width: 50%;
+    
+    margin: 0 auto;
+    padding: 5rem;
+    text-align: center;
+}
+
+
+
+.mainContent ul {
+    text-align: start;
+    
+    font-size: 1.2rem;
+}
+
+.mainContent li {
+    margin-bottom: 1rem;
+}
+
+h3 {
+    font-size: 1.2rem;
+    margin-top: 5rem;
+
+}
+
+h1{
+    margin-top: 2rem;
+}
+
+@media (max-width:315px){
+    h1{
+        margin-top: 4rem;
+    }
+}
