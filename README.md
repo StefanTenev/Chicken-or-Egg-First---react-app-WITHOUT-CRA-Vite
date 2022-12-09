@@ -6,7 +6,7 @@ Since this page uses, babel, IT WILL NOT run by just opening the html on your lo
 Therefore, to run the page, by creating own live server:
 <br>
 
-1 - Download Visual Studio CodeL https://code.visualstudio.com/download
+1 - Download Visual Studio Code: https://code.visualstudio.com/download
 <br>
 2 - Install the live server extention - tutoral here: https://www.youtube.com/watch?v=ZfCi0Is9gLU
 <br>
